@@ -1,0 +1,28 @@
+{
+  "first_name": "Blue",
+  "last_name": "Bird",
+  "token": "bluebird_token",
+  "email": "bluebird@gmail.com",
+  "password": "My_passw0rd",
+  "identifications": [
+    {
+      "type": "SSN",
+      "value": "111234444"
+    }
+  ],
+  "birth_date": "1991-01-01",
+  "address1": "1234 Blake Street",
+  "city": "Berkeley",
+  "state": "CA",
+  "country": "USA",
+  "postal_code": "94702",
+  "phone": "5101111111",
+  "gender": "M",
+  "uses_parent_account": false,
+  "metadata": {
+    "key1":"value1",
+    "key2": "value2",
+    "notification_email": "birdBlue@gmail.com",
+    "notification_language": "spa"
+  }
+}

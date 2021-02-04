@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Automation-Test-Suite" >
+   <test name="Cards" >
+       <classes> 
+          <class name="com.nancy.automation.rest_assured_test_project.UserTests" />
+       </classes>
+   </test>
+ </suite>

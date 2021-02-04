@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation-Test-Suite" duration-ms="4060" started-at="2021-02-04T17:27:19 CST" finished-at="2021-02-04T17:27:23 CST">
+    <groups>
+    </groups>
+    <test name="Cards" duration-ms="4060" started-at="2021-02-04T17:27:19 CST" finished-at="2021-02-04T17:27:23 CST">
+      <class name="com.nancy.automation.rest_assured_test_project.UserTests">
+        <test-method status="PASS" signature="valid_UserCreation()[pri:0, instance:com.nancy.automation.rest_assured_test_project.UserTests@6c49835d]" name="valid_UserCreation" duration-ms="3226" started-at="2021-02-04T17:27:19 CST" finished-at="2021-02-04T17:27:23 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_UserCreation -->
+        <test-method status="PASS" signature="invalid_UserCreation()[pri:1, instance:com.nancy.automation.rest_assured_test_project.UserTests@6c49835d]" name="invalid_UserCreation" duration-ms="450" started-at="2021-02-04T17:27:23 CST" finished-at="2021-02-04T17:27:23 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_UserCreation -->
+        <test-method status="PASS" signature="retrieve_CARD()[pri:2, instance:com.nancy.automation.rest_assured_test_project.UserTests@6c49835d]" name="retrieve_CARD" duration-ms="333" started-at="2021-02-04T17:27:23 CST" depends-on-methods="com.nancy.automation.rest_assured_test_project.UserTests.valid_UserCreation" finished-at="2021-02-04T17:27:23 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieve_CARD -->
+      </class> <!-- com.nancy.automation.rest_assured_test_project.UserTests -->
+    </test> <!-- Cards -->
+  </suite> <!-- Automation-Test-Suite -->
+</testng-results>
